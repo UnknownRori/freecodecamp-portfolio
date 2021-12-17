@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    transition: 100ms;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(../image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: rgba(255, 192, 203, 0.719);
+}
+
+.nav-link {
+    font-weight: bold;
+    color: black;
+}
+
+#content {
+    background-color: rgba(128, 128, 128, 0.808);
+}
+
+#welcome-section {
+    padding: 10rem;
+    margin-top: 3.5rem;
+    height: 91vh;
+}
+
+#welcome-section > * {
+    font-weight: 300;
+    color: black;
+}
+
+#projects h2 {
+    font-weight: bolder;
+}
